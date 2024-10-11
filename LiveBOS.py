@@ -53,7 +53,8 @@ def start():
                                   
     '''
     print(logo)
-
+    print("wirten by YZX100")
+    
 def main():
     parser = argparse.ArgumentParser(description="LiveBOS UploadFile.do 接口存在任意文件上传漏洞")
     parser.add_argument('-u', type=str, help='检测单个url')
